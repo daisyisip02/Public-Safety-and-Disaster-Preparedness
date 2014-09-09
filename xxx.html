@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            xxx
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.2/jquery.mobile.structure-1.4.2.css"
+        rel="stylesheet" />
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-1.9.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.2/jquery.mobile-1.4.2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jsonpath.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <div data-role="page" style="min-height:480px;" dsid="xxx" id="xxx" class="type-interior"
+        data-theme="f">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Back"
+            data-theme="b" name="mobileheader" id="xxx_mobileheader" class="xxx_mobileheader">
+                <h1 dsid="mobileheader">
+                    Be Informed
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="xxx_mobilecontainer" name="mobilecontainer" class="xxx_mobilecontainer ui-content"
+            dsid="mobilecontainer" data-theme="f">
+                <link href="xxx.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="xxx.js">
+                </script>
+                <!-- mobilecollapsibleset_42 -->
+                <div data-role="collapsible-set" data-theme="f" data-content-theme=f data-collapsed-icon='plus'
+                data-expanded-icon='minus' name="mobilecollapsibleset_42" id="xxx_mobilecollapsibleset_42"
+                dsid="mobilecollapsibleset_42" class="xxx_mobilecollapsibleset_42">
+                    <!-- mobilecollapsblock_43 -->
+                    <div data-role="collapsible" id="xxx_mobilecollapsblock_43" name="mobilecollapsblock_43"
+                    dsid="mobilecollapsblock_43" data-collapsed="true" data-theme="f" data-content-theme="f"
+                    data-iconpos='left' class="xxx_mobilecollapsblock_43" reRender='mobilecollapsibleset_42'>
+                        <h3 id="xxx_mobilecollapsblockheader_44" name="mobilecollapsblockheader_44" dsid="mobilecollapsblockheader_44">
+                            Floods
+                        </h3>
+                    </div>
+                    <!-- mobilecollapsblock_80 -->
+                    <div data-role="collapsible" id="xxx_mobilecollapsblock_80" name="mobilecollapsblock_80"
+                    dsid="mobilecollapsblock_80" data-collapsed="true" data-theme="f" data-content-theme="f"
+                    data-iconpos='left' class="xxx_mobilecollapsblock_80" reRender='mobilecollapsibleset_42'>
+                        <h3 id="xxx_mobilecollapsblockheader_81" name="mobilecollapsblockheader_81" dsid="mobilecollapsblockheader_81">
+                            Earthquakes
+                        </h3>
+                    </div>
+                    <!-- mobilecollapsblock_77 -->
+                    <div data-role="collapsible" id="xxx_mobilecollapsblock_77" name="mobilecollapsblock_77"
+                    dsid="mobilecollapsblock_77" data-collapsed="true" data-theme="f" data-content-theme="f"
+                    data-iconpos='left' class="xxx_mobilecollapsblock_77" reRender='mobilecollapsibleset_42'>
+                        <h3 id="xxx_mobilecollapsblockheader_78" name="mobilecollapsblockheader_78" dsid="mobilecollapsblockheader_78">
+                            Landslides
+                        </h3>
+                    </div>
+                    <!-- mobilecollapsblock_206 -->
+                    <div data-role="collapsible" id="xxx_mobilecollapsblock_206" name="mobilecollapsblock_206"
+                    dsid="mobilecollapsblock_206" data-collapsed="true" data-theme="f" data-content-theme="f"
+                    data-iconpos='left' class="xxx_mobilecollapsblock_206" reRender='mobilecollapsibleset_42'>
+                        <h3 id="xxx_mobilecollapsblockheader_207" name="mobilecollapsblockheader_207" dsid="mobilecollapsblockheader_207">
+                            Volcanic Eruption
+                        </h3>
+                    </div>
+                    <!-- mobilecollapsblock_68 -->
+                    <div data-role="collapsible" id="xxx_mobilecollapsblock_68" name="mobilecollapsblock_68"
+                    dsid="mobilecollapsblock_68" data-collapsed="true" data-theme="f" data-content-theme="f"
+                    data-iconpos='left' class="xxx_mobilecollapsblock_68" reRender='mobilecollapsibleset_42'>
+                        <h3 id="xxx_mobilecollapsblockheader_69" name="mobilecollapsblockheader_69" dsid="mobilecollapsblockheader_69">
+                            Tsunamis
+                        </h3>
+                        <!-- mobilecollapsblock_74 -->
+                        <div data-role="collapsible" id="xxx_mobilecollapsblock_74" name="mobilecollapsblock_74"
+                        dsid="mobilecollapsblock_74" data-collapsed="false" data-theme="f" data-content-theme="f"
+                        data-iconpos='left' class="xxx_mobilecollapsblock_74">
+                            <h3 id="xxx_mobilecollapsblockheader_75" name="mobilecollapsblockheader_75" dsid="mobilecollapsblockheader_75">
+                                text
+                            </h3>
+                        </div>
+                    </div>
+                    <!-- mobilecollapsblock_46 -->
+                    <div data-role="collapsible" id="xxx_mobilecollapsblock_46" name="mobilecollapsblock_46"
+                    dsid="mobilecollapsblock_46" data-collapsed="true" data-theme="f" data-content-theme="f"
+                    data-iconpos='left' class="xxx_mobilecollapsblock_46" reRender='mobilecollapsibleset_42'>
+                        <h3 id="xxx_mobilecollapsblockheader_47" name="mobilecollapsblockheader_47" dsid="mobilecollapsblockheader_47">
+                            Wildfires
+                        </h3>
+                    </div>
+                    <!-- mobilecollapsblock_49 -->
+                    <div data-role="collapsible" id="xxx_mobilecollapsblock_49" name="mobilecollapsblock_49"
+                    dsid="mobilecollapsblock_49" data-collapsed="true" data-theme="f" data-content-theme="f"
+                    data-iconpos='left' class="xxx_mobilecollapsblock_49" reRender='mobilecollapsibleset_42'>
+                        <h3 id="xxx_mobilecollapsblockheader_50" name="mobilecollapsblockheader_50" dsid="mobilecollapsblockheader_50">
+                            Severe Weather
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="xxx_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="xxx_mobilefooter" data-theme="f">
+            </div>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,73 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.2/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.xxx_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilecollapsibleset_42 */
+.xxx_mobilecollapsibleset_42 {
+	margin: 8px 5px 8px 5px;
+}
+/* mobilecollapsblock_43 */
+.xxx_mobilecollapsblock_43 {
+
+}
+.xxx_mobilecollapsblock_43 .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* mobilecollapsblock_80 */
+.xxx_mobilecollapsblock_80 {
+
+}
+.xxx_mobilecollapsblock_80 .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* mobilecollapsblock_77 */
+.xxx_mobilecollapsblock_77 {
+
+}
+.xxx_mobilecollapsblock_77 .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* mobilecollapsblock_206 */
+.xxx_mobilecollapsblock_206 {
+
+}
+.xxx_mobilecollapsblock_206 .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* mobilecollapsblock_68 */
+.xxx_mobilecollapsblock_68 {
+
+}
+.xxx_mobilecollapsblock_68 .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* mobilecollapsblock_74 */
+.xxx_mobilecollapsblock_74 {
+	margin: 4px 8px 4px 8px;
+}
+.xxx_mobilecollapsblock_74 .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* mobilecollapsblock_46 */
+.xxx_mobilecollapsblock_46 {
+
+}
+.xxx_mobilecollapsblock_46 .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* mobilecollapsblock_49 */
+.xxx_mobilecollapsblock_49 {
+
+}
+.xxx_mobilecollapsblock_49 .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* mobilefooter */
+.xxx_mobilefooter {
+	min-height:38px;
+}
